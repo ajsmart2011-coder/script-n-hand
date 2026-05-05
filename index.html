@@ -1,10 +1,129 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Script n Hand</title>
+  <title>Script N Hand</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #050505;
+      color: white;
+      text-align: center;
+    }
+
+    /* NAV /
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px;
+      background: black;
+      border-bottom: 1px solid #222;
+    }
+
+    .logo {
+      color: #00ffcc;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .nav a {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+    }
+
+    / HERO /
+    .hero {
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+      color: #00ffcc;
+      text-shadow: 0 0 20px #00ffcc;
+    }
+
+    .btn {
+      background: #00ffcc;
+      color: black;
+      padding: 12px 25px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: white;
+    }
+
+    / CARDS */
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .card {
+      background: #111;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #222;
+      width: 250px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      border-color: #00ffcc;
+    }
+
+    footer {
+      padding: 20px;
+      color: #666;
+    }
+  </style>
 </head>
-<body style="background:black;color:white;text-align:center;">
-  <h1>Script n Hand</h1>
-  <p>IT WORKS 🔥</p>
+
+<body>
+
+  <div class="nav">
+    <div class="logo">SNH</div>
+    <div>
+      <a href="#">Home</a>
+      <a href="#">Login</a>
+    </div>
+  </div>
+
+  <div class="hero">
+    <h1>Script N Hand</h1>
+    <p>Next Level Gaming Tools</p>
+    <a class="btn" href="#">Download Script</a>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Performance Boost</h3>
+      <p>Optimized gameplay experience</p>
+    </div>
+
+    <div class="card">
+      <h3>Easy Setup</h3>
+      <p>No complicated installs</p>
+    </div>
+
+    <div class="card">
+      <h3>Updated Often</h3>
+      <p>Stay ahead of everyone</p>
+    </div>
+  </div>
+
+  <footer>
+    © Script N Hand
+  </footer>
+
 </body>
 </html>
