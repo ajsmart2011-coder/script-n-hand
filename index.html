@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Script N Hand</title>
+  <title>Script N Hand Store</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
@@ -10,10 +10,8 @@
       font-family: Arial;
       background: #050505;
       color: white;
-      text-align: center;
     }
 
-    /* NAV /
     .nav {
       display: flex;
       justify-content: space-between;
@@ -25,63 +23,46 @@
     .logo {
       color: #00ffcc;
       font-weight: bold;
-      font-size: 20px;
     }
 
-    .nav a {
-      color: white;
-      margin-left: 15px;
-      text-decoration: none;
-    }
-
-    / HERO /
     .hero {
-      padding: 80px 20px;
+      text-align: center;
+      padding: 60px 20px;
     }
 
     .hero h1 {
-      font-size: 40px;
       color: #00ffcc;
-      text-shadow: 0 0 20px #00ffcc;
+      text-shadow: 0 0 15px #00ffcc;
+    }
+
+    .product {
+      max-width: 400px;
+      margin: auto;
+      background: #111;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #222;
+      text-align: center;
+    }
+
+    .price {
+      font-size: 28px;
+      color: #00ffcc;
+      margin: 15px 0;
     }
 
     .btn {
       background: #00ffcc;
       color: black;
       padding: 12px 25px;
-      border-radius: 10px;
+      border-radius: 8px;
       text-decoration: none;
+      display: inline-block;
       font-weight: bold;
-      transition: 0.3s;
-    }
-
-    .btn:hover {
-      background: white;
-    }
-
-    / CARDS */
-    .grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-    .card {
-      background: #111;
-      margin: 15px;
-      padding: 20px;
-      border-radius: 12px;
-      border: 1px solid #222;
-      width: 250px;
-      transition: 0.3s;
-    }
-
-    .card:hover {
-      transform: scale(1.05);
-      border-color: #00ffcc;
     }
 
     footer {
+      text-align: center;
       padding: 20px;
       color: #666;
     }
@@ -90,40 +71,27 @@
 
 <body>
 
-  <div class="nav">
-    <div class="logo">SNH</div>
-    <div>
-      <a href="#">Home</a>
-      <a href="#">Login</a>
-    </div>
-  </div>
+<div class="nav">
+  <div class="logo">Script N Hand</div>
+</div>
 
-  <div class="hero">
-    <h1>Script N Hand</h1>
-    <p>Next Level Gaming Tools</p>
-    <a class="btn" href="#">Download Script</a>
-  </div>
+<div class="hero">
+  <h1>Premium Script</h1>
+  <p>Boost your performance and dominate the game</p>
+</div>
 
-  <div class="grid">
-    <div class="card">
-      <h3>Performance Boost</h3>
-      <p>Optimized gameplay experience</p>
-    </div>
+<div class="product">
+  <h2>Script N Hand</h2>
+  <p>Optimized gameplay, smooth performance, easy setup</p>
+  
+  <div class="price">$10</div>
 
-    <div class="card">
-      <h3>Easy Setup</h3>
-      <p>No complicated installs</p>
-    </div>
+  <a class="btn" href="YOUR_STRIPE_LINK">Buy Now</a>
+</div>
 
-    <div class="card">
-      <h3>Updated Often</h3>
-      <p>Stay ahead of everyone</p>
-    </div>
-  </div>
-
-  <footer>
-    © Script N Hand
-  </footer>
+<footer>
+  © 2026 Script N Hand
+</footer>
 
 </body>
 </html>
